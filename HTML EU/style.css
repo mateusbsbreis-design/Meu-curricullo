@@ -1,0 +1,116 @@
+* {
+        margin:0;
+        padding:0;
+        list-style: style none;
+        box-sizing: border-box;
+        font-size:100%;
+       
+    }
+    body{
+        background-color:   #0f172a;
+        color:  #e5e7eb;
+        accent-color: #38bdf8;
+       }
+    /*Container*/
+    .container {
+        max-width: 960px;
+        width:95%;
+        padding: 5%;
+        margin: 10px auto;
+        border: 3px solid #111;
+    }
+    /*header*/
+    header h1 {
+        Font-size:25px;
+        margin-bottom: 5px;
+         color: #38bdf8;
+    }
+    header p{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    header a{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .perfil{
+        border: radius 100%;
+        max-width: 200px;
+        border: 5px solid black;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    li::before{
+        content:"• ";
+        }
+        a{
+            display: inline-block;
+            background-color: #00113f;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            text-decoration: none;
+           margin: 10px 5px;
+        }
+       .u{
+        max-width: 960px;
+        width:95%;
+        padding: 5%;
+        margin: 10px auto;
+        border: 3px solid #111;
+        content:"• ";
+       }
+       .Eu{
+        max-width: 960px;
+        width:95%;
+        padding: 5%;
+        margin: 10px auto;
+        border: 3px solid #111;
+        content:"• ";
+       }
+       
+       .pot::before{
+         content: "• ";
+       }
+        
+        .historia{
+            max-width: 960px;
+        width:95%;
+        padding: 5%;
+        margin: 10px auto;
+        border: 3px solid #111;
+        content:"• ";
+        }
+        .objetivos{
+            max-width: 960px;
+        width:95%;
+        padding: 5%;
+        margin: 10px auto;
+        border: 3px solid #111;
+        content:"• ";
+        }
+        .habilidades{
+            max-width: 960px;
+        width:95%;
+        padding: 5%;
+        margin: 10px auto;
+        border: 3px solid #111;
+        content:"• ";
+        }
+    
+    .btn{
+        display: inline-block;
+            background-color: #38bdf8;
+            color: #0f172a;
+            padding: 8px 12px;
+            border: none; /* tira o sublinhado */
+            cursor: pointer;
+            transition: 0.3s;
+    }
+    .btn:hover{
+        background-color: #0ea5e9;
+        transform: scale(1.1);
+    }
+            
